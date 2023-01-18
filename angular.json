@@ -31,7 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss", "src/theme/custom.css", "src/theme/main.css", "src/theme/main.min.css"
             ],
             "scripts": []
           },
@@ -99,7 +99,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss", "src/theme/custom.css", "src/theme/main.css", "src/theme/main.min.css"
             ],
             "scripts": []
           }
@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "pag-web23"
+  "defaultProject": "pag-web23",
+  "cli": {
+    "analytics": false
+  }
 }
